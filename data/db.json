@@ -1,22 +1,10 @@
 {
   "projects": [
     {
-      "title": "Task 1 ",
-      "details": "lorem ipsum",
-      "completed": true,
-      "id": 1
-    },
-    {
-      "title": "Task 2",
-      "details": "Another Task for today",
+      "title": "Order Cake",
+      "details": "Birthday Cake\nLaxmi sports malviye Nagar Jaipur",
       "completed": false,
-      "id": 2
-    },
-    {
-      "title": "Task 3",
-      "details": "Changed from task 4 to task 3",
-      "completed": true,
-      "id": 3
+      "id": 1
     }
   ]
 }
