@@ -1,17 +1,20 @@
 <template>
-  <div class="project" :class="{ complete : project.completed }">
-      <div class="actions">
-          <h4 @click="showDetail">{{ project.title }} </h4>
-          <div class="icons">
-              <span class="material-icons">edit</span>
-              <span class="material-icons" @click="deleteProject">delete</span>
-              <span class="material-icons" @click="toggleComplete" :class="{ complete : project.completed }">done</span>
-          </div>
-      </div>
-      <div class="details" v-if="isVisible">
-          <small>{{ project.details }}</small>
-      </div>
-  </div>
+<div class="project" :class="{ complete : project.completed }">
+    <div class="actions">
+        <h4 @click="showDetail">{{ project.title }} </h4>
+        <div class="icons">
+            <router-link :to="{ name : 'EditProject' , params : { id : project.id} }">
+                <span class="material-icons">edit</span>
+            </router-link>
+            <span class="material-icons" @click="deleteProject">delete</span>
+            <span class="material-icons" @click="toggleComplete" :class="{ complete : project.completed }">done</span>
+        </div>
+    </div>
+    <div class="details" v-if="isVisible">
+        <small>{{ project.details }}</small>
+    </div>
+</div>
+  
 </template>
 
 <script>

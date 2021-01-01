@@ -1,16 +1,22 @@
 {
   "projects": [
     {
-      "title": "Water the plants",
-      "id": 1,
+      "title": "Task 1 ",
+      "details": "lorem ipsum",
       "completed": true,
-      "details": "lorem ipsum"
+      "id": 1
     },
     {
-      "title": "Walk the dog",
-      "id": 2,
+      "title": "Task 2",
+      "details": "Another Task for today",
       "completed": false,
-      "details": "lorem ipsum"
+      "id": 2
+    },
+    {
+      "title": "Task 3",
+      "details": "Changed from task 4 to task 3",
+      "completed": true,
+      "id": 3
     }
   ]
 }
