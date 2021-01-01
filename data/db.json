@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "title": "Water the plants",
+      "id": 1,
+      "completed": true,
+      "details": "lorem ipsum"
+    },
+    {
+      "title": "Walk the dog",
+      "id": 2,
+      "completed": false,
+      "details": "lorem ipsum"
+    }
+  ]
+}
