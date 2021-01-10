@@ -14,6 +14,12 @@ npm run serve
 ```
 npm run build
 ```
+### Data Fetching 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Either use json server to fetch and add data locally to your device or use existing cloud database storage
+```
+json-server --watch data/db.json
+```
+
+### Vue Version
+Vue 3.x
