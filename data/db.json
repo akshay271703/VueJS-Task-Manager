@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "title": "Order Cake",
-      "details": "Birthday Cake\nLaxmi sports malviye Nagar Jaipur",
+      "title": "Task 1",
+      "details": "Do this Task",
       "completed": false,
       "id": 1
     }
